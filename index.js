@@ -67,10 +67,10 @@ const downloadFilePath = "downloaded-hello.txt"; // Replace with the file path y
 const objectKey = "hello.txt"; // Replace with your object key
 
 // Upload a file to the bucket
-uploadFile(bucketName, uploadFilePath, objectKey);
+// uploadFile(bucketName, uploadFilePath, objectKey);
 
 // Download a file from the bucket
-downloadFile(bucketName, objectKey, downloadFilePath);
+// downloadFile(bucketName, objectKey, downloadFilePath);
 
 // List objects in the bucket
-listObjects(bucketName);
+// listObjects(bucketName);
